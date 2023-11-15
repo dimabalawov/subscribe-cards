@@ -1,0 +1,61 @@
+
+body
+{
+    padding-left: 3em;
+    padding:3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card
+{
+    height: 26em;
+    width: 15em;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    margin-left: 1.5em;
+    border-radius: .8em;
+    transition: 
+    transform .5s;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.3em;
+}
+.card:hover
+{
+    transform: scale(1.1,1.1);
+}
+.container
+{
+    display: flex;
+}
+.card hr
+{
+    border: 0.1em solid black;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+.card h5
+{
+    margin: 0;
+    font-size: 1.5em;
+}
+.price
+{
+    font-size: 3em;
+}
+.btn
+{
+    margin-top: 2em;
+    background-color: rgb(199, 55, 86);
+    border-radius: .5em;
+    width: 6em;
+    color: white;
+    transition: transform .2s;
+    border: none;
+}
+.btn:focus, .btn:active {
+    box-shadow: none !important;
+  }
+.btn:active
+{
+    transform: scale(1.2,1.2);
+    color: white;
+}
